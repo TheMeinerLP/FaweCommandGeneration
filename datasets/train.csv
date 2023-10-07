@@ -1,0 +1,24 @@
+command,description
+//gmask air,create a global air mask
+//gmask,disable global mask
+//set stone,set stone
+//undo,undo my last operation
+//replace stone air,replace stone to air
+//br sphere stone 5,bind me a brush sphere with a size of 5 and the blocks if stone
+//wand,give me a wand
+//gmask y>15 ,create a mask that allows on a mask above 15 in y axis
+//deform z+=0.314*sin(y^2+x^2),make a curve deformation with a intensity of 0.314
+//deform x/=3/1;y/=3/1;z/=3/1,make my structure 3 times bigger
+//deform x/=1/3;y/=1/3;z/=1/3,make my structure 3 times smaller
+//nbtinfo,show me the nbt data on my crosshair in plain text
+//chunkinfo,show me the information of this chunk
+//distr -c -d,analyse the block distribution of my selection and separate all blocks with different blocks values
+//distr -c -d -p 2,show me the second page of the block distribution
+//count oak_leaves,how many oak leaves are in my selection?
+//count rose_bush[half=upper],how many half upper rose bushes are in my selection?
+//size,how big is my selection?
+//size -c,how big is my clipboard selection?
+//biomelist,which biomes are in my selection?
+//biomelist -p 2,show me the second page of the biomelist
+//biomelist -t,show me the biome on my crosshair
+//setbiome $minecraft:warm_ocean,Can you give me the command to set a minecraft warm ocean biome in my selection?
