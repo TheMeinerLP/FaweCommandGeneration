@@ -21,4 +21,69 @@ command,description
 //biomelist,which biomes are in my selection?
 //biomelist -p 2,show me the second page of the biomelist
 //biomelist -t,show me the biome on my crosshair
-//setbiome $minecraft:warm_ocean,Can you give me the command to set a minecraft warm ocean biome in my selection?
+//setbiome $minecraft:warm_ocean,can you give me the command to set a minecraft warm ocean biome in my selection?
+//setbiome forest,can you give me the command to set a forest biome in my selection?
+//setbiome forest -p,can you tell me how to set a forest biome at my position?
+"//fill stone,cobblestone,air 15 2 down","fill this hole with stone, cobblestone and air 2 down and with a radius of 15 blocks"
+//removenear grass_block 50,remove in a distance of 50 blocks all grass blocks
+"//gmask #offset[0][5][3][stone,diorite,cobblestone] ","can you create a gmask which has the offset of 0 5 3 and contains stone, diorite and cobblestone pattern?"
+"//replace stone 50%stone,20%air,30%diamond_block","replace stone with 50% stone, 20% air and 30% diamond blocks please"
+//gmask %50,set a gmask with 50% chance
+//gmask #existing,global mask all existing blocks for me
+//gmask #surface,global mask all surface blocks
+//gmask $warm_ocean,gmask all warm ocean biomes
+//gmask !dirt,negate all dirt in my gmask
+//deform x/=1/5;y/=1/5;z/=1/5,make my structure 5 times smaller
+//deform x/=1/7;y/=1/7;z/=1/7,make my structure 7 times smaller
+//deform x/=1/15;y/=1/15;z/=1/15,make my structure 15 times smaller
+//deform x/=4/1;y/=4/1;z/=4/1,make my structure 4 times bigger
+//deform x/=8/1;y/=8/1;z/=8/1,make my structure 8 times bigger
+//deform x/=16/1;y/=16/1;z/=16/1,make my structure 16 times bigger
+//deform x/=16/1;y/=8/1;z/=4/1,make my structure 16 times bigger in x and 8 times bigger in y and 4 times bigger in z
+//gmask %25,set the gmask to 25% chance
+//gmask %75,set my gmask to 70% chance
+//pos1,select my first position
+//pos2,select my second position
+//1,select the first position
+//2,select the secound position
+//copy,copy my selection
+//copy -b,copy my selection and the biomes inside of it
+//paste,paste my clipboard
+//paste -a,paste my clipboard without air
+//paste -b,paste my clipboard with the biomes inside of it
+//paste,paste what I have copied
+//rotate 0 0 90,rotate my clipboard with y 90
+//rotate 0 0 45,rotate the clipboard with y 45
+//rotate 0 90 0,can you rotate the clipboard with z 90?
+//rotate 0 45 0,can you rotate my clipboard with z 45 degrees?
+//rotate 90 0 0,can you rotate the clipboard by x 90?
+//rotate 45 0 0,rotate my clipboard by x 45
+//rotate 90 90 90,"rotate my clipboard by x 90, z 90 and y 90 "
+//rotate 90 45 0,"rotate my clipboard by x 90, z 45 and y 0"
+//thaw 30,melt the snow next ot me in a radius of 30 blocks
+//thaw 100,can you make the snow go away in a radius of 100 blocks?
+//fixlava 67,can you fix the lava in a radius of 67 blocks?
+//fixlava 45,can you make the lava go away in a radius of 45 blocks?
+//fixwater 5,can you fix the water in a radius of 5 blocks?
+//fixwater 11,fix the water in a 11 block radius for me
+//snow 15,let it snow in a radius of 15 blocks
+//snow 51,let it snow in a radius of 51 blocks
+//snow 52,let it snow in a radius of 52 blocks
+//snow 32,let it snow in a radius of 32 blocks
+//snow 74,let it snow in a radius of 74 blocks
+//snow 89,let it snow in a radius of 89 blocks
+//snow 55,let it snow in a radius of 55 blocks
+//snow 63,let it snow in a radius of 63 blocks
+//snow 88,let it snow in a radius of 88 blocks
+//snow 200,let it snow in a radius of 200 blocks
+//snow 25,let it snow in a radius of 25 blocks
+//fixwater 1,fix the water in a 1 block radius for me
+//fixwater 2,fix the water in a 2 block radius for me
+//fixwater 3,fix the water in a 3 block radius for me
+//fixwater 4,fix the water in a 4 block radius for me
+//fixwater 123,fix the water in a 123 block radius for me
+//fixwater 46,fix the water in a 46 block radius for me
+//fixwater 78,fix the water in a 78 block radius
+//fixwater 79,fix water in a 79 block radius
+//snow 300,let it snow in a radius of 300 blocks
+//snow 299,let it snow in a radius of 299 blocks
