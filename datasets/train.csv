@@ -134,5 +134,14 @@ command,description
 //contract 3 west,3 east,"contract the selected area 3 blocks to the west and 3 blocks to the east"
 //shift 10 up,"shift the selected area 10 blocks up"
 //rotate 180,"rotate the selected area 180 degrees"
+//pumpkins,"place pumpkins randomly in the selected area"
+//thaw 50,"remove snow and ice within a radius of 50 blocks from the position"
+//green -f,"green the selected area including coarse dirt"
+//schematic save castle,"save the selected area to a schematic file named castle"
+//schematic load castle,"load the schematic file named castle into the selected area"
+//schematic formats,"list all supported schematic formats"
+//brush smooth 5,"create a brush that smooths terrain with a radius of 5 blocks"
+//brush gravity 5,"create a brush that applies gravity to blocks within a radius of 5 blocks"
+
 
 
