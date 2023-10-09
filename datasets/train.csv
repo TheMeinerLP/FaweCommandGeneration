@@ -43,6 +43,16 @@ command,question
 //gmask #surface,global mask all surface blocks
 //gmask $warm_ocean,gmask all warm ocean biomes
 //gmask !dirt,negate all dirt in my gmask
+//deform x/=1/5;y/=1/5;z/=1/5,scale down my structure by a factor of 5
+//deform x/=1/7;y/=1/7;z/=1/7,scale down my structure by a factor of 7
+//deform x/=1/15;y/=1/15;z/=1/15,scale down my structure by a factor of 15
+//deform x/=1/5;y/=1/5;z/=1/5,What's the command to scale down my structure by a factor of 5?
+//deform x/=1/7;y/=1/7;z/=1/7,What's the command to scale down my structure by a factor of 7?
+//deform x/=1/15;y/=1/15;z/=1/15,What's the command to scale down my structure by a factor of 15?
+//deform x/=4/1;y/=4/1;z/=4/1,scale up my structure by a factor of 4
+//deform x/=8/1;y/=8/1;z/=8/1,scale up my structure by a factor of 8
+//deform x/=16/1;y/=16/1;z/=16/1,scale up my structure by a factor of 16
+//deform x/=16/1;y/=8/1;z/=4/1,scale up my structure by a factor of 16 in x and a factor of 8 in y and a factor of 4 in z
 //deform x/=1/5;y/=1/5;z/=1/5,make my structure 5 times smaller
 //deform x/=1/7;y/=1/7;z/=1/7,make my structure 7 times smaller
 //deform x/=1/15;y/=1/15;z/=1/15,make my structure 15 times smaller
