@@ -1,4 +1,4 @@
-command,description
+command,question
 //gmask air,create a global air mask
 //gmask,disable global mask
 //set stone,set stone
@@ -8,6 +8,16 @@ command,description
 //wand,give me a wand
 //gmask y>15 ,create a mask that allows on a mask above 15 in y axis
 //deform z+=0.314*sin(y^2+x^2),make a curve deformation with a intensity of 0.314
+//deform z+=0.5*sin(y^2+x^2),How make i a curve deformation with a intensity of 0.5
+//deform z+=0.7*sin(y^2+x^2),make a curve deformation with a intensity of 0.7
+//deform z+=0.7*sin(y^2+x^2),Perform a curve deformation with an intensity of 0.7
+//deform z+=0.7*sin(y^2+x^2),Create a curve distortion with an intensity value of 0.7
+//deform z+=0.7*sin(y^2+x^2),Execute a deformation of the curve with an intensity of 0.7
+//deform z+=0.7*sin(y^2+x^2),Make a curve deformation with an intensity rating of 0.7
+//deform z+=0.7*sin(y^2+x^2),Implement a curve deformation with an intensity of 0.7
+//deform z+=2*sin(y^2+x^2),make a curve with a intensity of 2
+//deform z+=12*sin(y^2+x^2),make a curve deformation with a intensity of 12
+//deform z+=60*sin(y^2+x^2),a curve deformation with a intensity of 60
 //deform x/=3/1;y/=3/1;z/=3/1,make my structure 3 times bigger
 //deform x/=1/3;y/=1/3;z/=1/3,make my structure 3 times smaller
 //nbtinfo,show me the nbt data on my crosshair in plain text
@@ -182,7 +192,7 @@ command,description
 "//br blob #simplex[13][purple_terracotta,pink_terracotta] 13,17,21 115 87 57","Create a blob using a simplex noise pattern with a frequency of 13, using purple and pink terracotta. The blob has dimensions of 13x17x21 blocks, and is applied with a radius of 115, a roundness of 87, and a sphericity of 57."
 "//br blob #simplex[16][orange_terracotta,brown_terracotta] 16,21,26 125 92 62","Create a blob using a simplex noise pattern with a frequency of 16, using orange and brown terracotta. The blob has dimensions of 16x21x26 blocks, and is applied with a radius of 125, a roundness of 92, and a sphericity of 62."
 "//br blob #simplex[21][lime_terracotta,gray_terracotta] 21,26,31 135 97 67","Create a blob using a simplex noise pattern with a frequency of 21, using lime and gray terracotta. The blob has dimensions of 21x26x31 blocks, and is applied with a radius of 135, a roundness of 97, and a sphericity of 67."
-"//br blob #simplex[4][cyan_terracotta,light_gray_terracotta] 4,9,14 82 69 39","Create a blob using a simplex noise pattern with a frequency of 4, using cyan and light gray terracotta. The blob has dimensions
+"//br blob #simplex[4][cyan_terracotta,light_gray_terracotta] 4,9,14 82 69 39","Create a blob using a simplex noise pattern with a frequency of 4, using cyan and light gray terracotta. The blob has dimensions"
 "//br blob #simplex[5][blue_wool,white_wool] 5,10,15 80 70 40","Create a blob with dimensions 5x10x15, radius 80, roundness 70, and sphericity 40 using blue and white wool."
 "//br blob #simplex[8][red_wool,black_wool] 8,12,16 90 75 45","Create a blob with dimensions 8x12x16, radius 90, roundness 75, and sphericity 45 using red and black wool."
 "//br blob #simplex[10][green_wool,yellow_wool] 10,14,18 100 80 50","Create a blob with dimensions 10x14x18, radius 100, roundness 80, and sphericity 50 using green and yellow wool."
