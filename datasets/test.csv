@@ -1,0 +1,28 @@
+command,question
+//replace stone wood,Replace all stone blocks in the selection with wood blocks.
+//replace grass_block sand,Replace all grass blocks in the selection with sand blocks.
+"//generate brown_wool N=13; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 13-sided shape on the ground using brown wool. You can change the '13' to any number to get a different sided shape!
+//replace gold_block diamond_block,Replace all gold blocks in the selection with diamond blocks.
+//deform z+=0.7*sin(y^2+x^2),make a curve deformation with a intensity of 0.7
+//schematic save my_schematic,save my selection to a schematic file named my_schematic
+"//br blob #simplex[10][green_wool,yellow_wool] 10,14,18 100 80 50","Create a blob with dimensions 10x14x18, radius 100, roundness 80, and sphericity 50 using green and yellow wool."
+"//br blob #simplex[21][lime_terracotta,gray_terracotta] 21,26,31 135 97 67","Create a blob with dimensions 21x26x31, radius 135, roundness 97, and sphericity 67 using lime and gray terracotta."
+//replace oak_log spruce_log,Replace all oak log blocks in the selection with spruce log blocks.
+//replacenear 20 sand gravel,replace all sand blocks within a 20 block radius with gravel
+//snow 15,let it snow in a radius of 15 blocks
+//deform z+=0.5*sin(y^2+x^2),How make i a curve deformation with a intensity of 0.5
+//deform x/=3/1;y/=3/1;z/=3/1,make my structure 3 times bigger
+//stack 5 west,stack my selection 5 times to the west
+//deform z+=0.7*sin(y^2+x^2),Implement a curve deformation with an intensity of 0.7
+//center gold_block,set the center block of my selection to a gold block
+//deform x/=1/15;y/=1/15;z/=1/15,make my structure 15 times smaller
+"//generate red_wool N=5; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2","Generate a 5-sided 2D polygon using red wool on the ground. The formula uses trigonometric functions to calculate the vertices of the polygon based on the number of sides (N), and the coordinates (x, z) to define the shape."
+//schematic load my_schematic,load the schematic file named my_schematic into my selection
+//re =(random()<1-(x/20)) sculk,"Create a sculk gradient on the x-axis from 0 to 20. The closer to 20, the less sculk there is."
+"//br blob #simplex[15][orange_wool,brown_wool] 15,20,25 120 90 60","Create a blob using a simplex noise pattern with a frequency of 15, using orange and brown wool. The blob has dimensions of 15x20x25 blocks, and is applied with a radius of 120, a roundness of 90, and a sphericity of 60."
+//curve quartz_block 5,create a curve made of quartz blocks with a radius of 5 blocks from my position to the opposite corner of my selection
+//replace clay terracotta,Replace all clay blocks in the selection with terracotta blocks.
+"//br blob #simplex[8][red_wool,black_wool] 8,12,16 90 75 45","Create a blob with dimensions 8x12x16, radius 90, roundness 75, and sphericity 45 using red and black wool."
+//delchunks,delete the chunks in the selected area
+//re =(random()<1-(x/100)) sculk,"Create a sculk gradient on the x-axis from 0 to 100. The closer to 100, the less sculk there is."
+//hcyl bricks 8 10,create a hollow cylinder made of bricks with a radius of 8 blocks and a height of 10 blocks

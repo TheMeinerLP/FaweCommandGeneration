@@ -1,0 +1,27 @@
+command,question
+"//generate red_wool N=5; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 5-sided shape on the ground using red wool. You can change the '5' to any number to get a different sided shape!
+//rotate 45 0 0,rotate my clipboard by x 45
+//stack 10 east,stack the selected area 10 times to the east
+//remove items 50,remove all dropped items within a radius of 50 blocks from the position
+//paste,paste the copied blocks
+//green -f,green the selected area including coarse dirt
+//flip north,flip my clipboard along the north-south axis
+//shift 10 up,shift the selected area 10 blocks up
+"//br blob #simplex[5][blue_wool,white_wool] 5,10,15 80 70 40","Create a blob with dimensions 5x10x15, radius 80, roundness 70, and sphericity 40 using blue and white wool."
+//biomelist -p 2,show me the second page of the biomelist
+//snow 89,let it snow in a radius of 89 blocks
+//fixwater 5,can you fix the water in a radius of 5 blocks?
+"//br blob #simplex[13][purple_terracotta,pink_terracotta] 13,17,21 115 87 57","Create a blob using a simplex noise pattern with a frequency of 13, using purple and pink terracotta. The blob has dimensions of 13x17x21 blocks, and is applied with a radius of 115, a roundness of 87, and a sphericity of 57."
+//deform x/=1/7;y/=1/7;z/=1/7,make my structure 7 times smaller
+//count oak_leaves,how many oak leaves are in my selection?
+//unstuck,free the player if stuck inside blocks
+//distr -c -d -p 2,show me the second page of the block distribution
+//rotate 90 0 0,can you rotate the clipboard by x 90?
+//fixwater 3,fix the water in a 3 block radius for me
+//wand,give me a wand
+"//generate red_wool N=5; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a 5-sided polygon on the ground using red wool.
+"//generate cyan_wool N=12; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 12-sided shape on the ground using cyan wool. You can change the '12' to any number to get a different sided shape!
+"//generate yellow_wool N=8; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 8-sided shape on the ground using yellow wool. You can change the '8' to any number to get a different sided shape!
+//snow 10,cover my position in a radius of 10 blocks with snow and ice
+//deform z+=60*sin(y^2+x^2),a curve deformation with a intensity of 60
+//setbiome forest,can you give me the command to set a forest biome in my selection?
