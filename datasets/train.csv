@@ -189,10 +189,40 @@ command,question
 //rotate 90 45 0,"How to spin my clipboard by x 90, z 45 and y 0?"
 //thaw 30,melt the snow next ot me in a radius of 30 blocks
 //thaw 100,can you make the snow go away in a radius of 100 blocks?
+//thaw 30,How do I melt the snow next to me in a radius of 30 blocks?
+//thaw 100,How do I make the snow go away in a radius of 100 blocks?
+//thaw 30,What's the command to melt the snow next to me within 30 blocks?
+//thaw 100,What's the command to clear the snow within a radius of 100 blocks?
+//thaw 30,How can I dissolve the snow around me in a 30-block radius?
+//thaw 100,How can I clear the snow around me in a 100-block radius?
+//thaw 30,What is the method to melt the snow next to me in a 30-block radius?
+//thaw 100,What is the method to remove the snow in a 100-block radius?
+//thaw 30,How to thaw the snow next to me within a 30-block radius?
+//thaw 100,How to get rid of the snow within a 100-block radius?
 //fixlava 67,can you fix the lava in a radius of 67 blocks?
 //fixlava 45,can you make the lava go away in a radius of 45 blocks?
 //fixwater 5,can you fix the water in a radius of 5 blocks?
 //fixwater 11,fix the water in a 11 block radius for me
+//fixlava 67,How do I fix the lava in a radius of 67 blocks?
+//fixlava 45,How do I make the lava go away in a radius of 45 blocks?
+//fixwater 5,How do I fix the water in a radius of 5 blocks?
+//fixwater 11,How do I fix the water in an 11-block radius?
+//fixlava 67,What's the command to fix the lava within 67 blocks?
+//fixlava 45,What's the command to clear the lava within 45 blocks?
+//fixwater 5,What's the command to fix the water within 5 blocks?
+//fixwater 11,What's the command to fix the water within an 11-block radius?
+//fixlava 67,How can I repair the lava damage in a 67-block radius?
+//fixlava 45,How can I remove the lava in a 45-block radius?
+//fixwater 5,How can I repair the water damage in a 5-block radius?
+//fixwater 11,How can I rectify the water in an 11-block radius?
+//fixlava 67,What is the method to fix the lava in a 67-block radius?
+//fixlava 45,What is the method to make the lava disappear in a 45-block radius?
+//fixwater 5,What is the method to fix the water in a 5-block radius?
+//fixwater 11,What is the method to rectify the water in an 11-block radius?
+//fixlava 67,How to resolve the lava issue within a 67-block radius?
+//fixlava 45,How to get rid of the lava within a 45-block radius?
+//fixwater 5,How to resolve the water issue within a 5-block radius?
+//fixwater 11,How to amend the water within an 11-block radius?
 //snow 15,let it snow in a radius of 15 blocks
 //snow 51,let it snow in a radius of 51 blocks
 //snow 52,let it snow in a radius of 52 blocks
@@ -204,6 +234,61 @@ command,question
 //snow 88,let it snow in a radius of 88 blocks
 //snow 200,let it snow in a radius of 200 blocks
 //snow 25,let it snow in a radius of 25 blocks
+//snow 15,How do I make it snow in a radius of 15 blocks?
+//snow 51,How do I make it snow in a radius of 51 blocks?
+//snow 52,How do I make it snow in a radius of 52 blocks?
+//snow 32,How do I make it snow in a radius of 32 blocks?
+//snow 74,How do I make it snow in a radius of 74 blocks?
+//snow 89,How do I make it snow in a radius of 89 blocks?
+//snow 55,How do I make it snow in a radius of 55 blocks?
+//snow 63,How do I make it snow in a radius of 63 blocks?
+//snow 88,How do I make it snow in a radius of 88 blocks?
+//snow 200,How do I make it snow in a radius of 200 blocks?
+//snow 25,How do I make it snow in a radius of 25 blocks?
+//snow 15,What's the command to snow over a radius of 15 blocks?
+//snow 51,What's the command to snow over a radius of 51 blocks?
+//snow 52,What's the command to snow over a radius of 52 blocks?
+//snow 32,What's the command to snow over a radius of 32 blocks?
+//snow 74,What's the command to snow over a radius of 74 blocks?
+//snow 89,What's the command to snow over a radius of 89 blocks?
+//snow 55,What's the command to snow over a radius of 55 blocks?
+//snow 63,What's the command to snow over a radius of 63 blocks?
+//snow 88,What's the command to snow over a radius of 88 blocks?
+//snow 200,What's the command to snow over a radius of 200 blocks?
+//snow 25,What's the command to snow over a radius of 25 blocks?
+//snow 15,How can I create snowfall in a 15-block radius?
+//snow 51,How can I create snowfall in a 51-block radius?
+//snow 52,How can I create snowfall in a 52-block radius?
+//snow 32,How can I create snowfall in a 32-block radius?
+//snow 74,How can I create snowfall in a 74-block radius?
+//snow 89,How can I create snowfall in a 89-block radius?
+//snow 55,How can I create snowfall in a 55-block radius?
+//snow 63,How can I create snowfall in a 63-block radius?
+//snow 88,How can I create snowfall in a 88-block radius?
+//snow 200,How can I create snowfall in a 200-block radius?
+//snow 25,How can I create snowfall in a 25-block radius?
+//snow 15,What is the method to create snow in a 15-block radius?
+//snow 51,What is the method to create snow in a 51-block radius?
+//snow 52,What is the method to create snow in a 52-block radius?
+//snow 32,What is the method to create snow in a 32-block radius?
+//snow 74,What is the method to create snow in a 74-block radius?
+//snow 89,What is the method to create snow in a 89-block radius?
+//snow 55,What is the method to create snow in a 55-block radius?
+//snow 63,What is the method to create snow in a 63-block radius?
+//snow 88,What is the method to create snow in a 88-block radius?
+//snow 200,What is the method to create snow in a 200-block radius?
+//snow 25,What is the method to create snow in a 25-block radius?
+//snow 15,How to initiate snowfall within a radius of 15 blocks?
+//snow 51,How to initiate snowfall within a radius of 51 blocks?
+//snow 52,How to initiate snowfall within a radius of 52 blocks?
+//snow 32,How to initiate snowfall within a radius of 32 blocks?
+//snow 74,How to initiate snowfall within a radius of 74 blocks?
+//snow 89,How to initiate snowfall within a radius of 89 blocks?
+//snow 55,How to initiate snowfall within a radius of 55 blocks?
+//snow 63,How to initiate snowfall within a radius of 63 blocks?
+//snow 88,How to initiate snowfall within a radius of 88 blocks?
+//snow 200,How to initiate snowfall within a radius of 200 blocks?
+//snow 25,How to initiate snowfall within a radius of 25 blocks?
 //fixwater 1,fix the water in a 1 block radius for me
 //fixwater 2,fix the water in a 2 block radius for me
 //fixwater 3,fix the water in a 3 block radius for me

@@ -1,27 +1,48 @@
 command,question
-"//generate red_wool N=5; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 5-sided shape on the ground using red wool. You can change the '5' to any number to get a different sided shape!
-//rotate 45 0 0,rotate my clipboard by x 45
-//stack 10 east,stack the selected area 10 times to the east
-//remove items 50,remove all dropped items within a radius of 50 blocks from the position
-//paste,paste the copied blocks
-//green -f,green the selected area including coarse dirt
-//flip north,flip my clipboard along the north-south axis
-//shift 10 up,shift the selected area 10 blocks up
-"//br blob #simplex[5][blue_wool,white_wool] 5,10,15 80 70 40","Create a blob with dimensions 5x10x15, radius 80, roundness 70, and sphericity 40 using blue and white wool."
-//biomelist -p 2,show me the second page of the biomelist
-//snow 89,let it snow in a radius of 89 blocks
-//fixwater 5,can you fix the water in a radius of 5 blocks?
-"//br blob #simplex[13][purple_terracotta,pink_terracotta] 13,17,21 115 87 57","Create a blob using a simplex noise pattern with a frequency of 13, using purple and pink terracotta. The blob has dimensions of 13x17x21 blocks, and is applied with a radius of 115, a roundness of 87, and a sphericity of 57."
-//deform x/=1/7;y/=1/7;z/=1/7,make my structure 7 times smaller
-//count oak_leaves,how many oak leaves are in my selection?
-//unstuck,free the player if stuck inside blocks
-//distr -c -d -p 2,show me the second page of the block distribution
-//rotate 90 0 0,can you rotate the clipboard by x 90?
-//fixwater 3,fix the water in a 3 block radius for me
-//wand,give me a wand
-"//generate red_wool N=5; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a 5-sided polygon on the ground using red wool.
-"//generate cyan_wool N=12; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 12-sided shape on the ground using cyan wool. You can change the '12' to any number to get a different sided shape!
-"//generate yellow_wool N=8; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 8-sided shape on the ground using yellow wool. You can change the '8' to any number to get a different sided shape!
-//snow 10,cover my position in a radius of 10 blocks with snow and ice
-//deform z+=60*sin(y^2+x^2),a curve deformation with a intensity of 60
+//replace bedrock sand,Replace all bedrock blocks in the selection with sand blocks.
+//snow 88,How to initiate snowfall within a radius of 88 blocks?
+//paste,How can I transfer what I have copied?
+//rotate 0 0 90,What is the method to rotate my clipboard with y 90?
+//deform x/=3/1;y/=3/1;z/=3/1,make my structure 3 times bigger
+//snow 74,let it snow in a radius of 74 blocks
+//schematic load my_schematic,load the schematic file named my_schematic into my selection
+//gmask %75,How to adjust my gmask to a 75% chance?
+//gmask $warm_ocean,gmask all warm ocean biomes
+//gmask %25,How to adjust the gmask to a 25% chance?
+//rotate 0 0 90,rotate my clipboard with y 90
+//drain 30,remove all water within a radius of 30 blocks from the position
+//copy -b,What is the method to copy my selection and include the biomes?
+//replace clay terracotta,Replace all clay blocks in the selection with terracotta blocks.
+"//br blob #simplex[16][orange_terracotta,brown_terracotta] 16,21,26 125 92 62","Create a blob using a simplex noise pattern with a frequency of 16, using orange and brown terracotta. The blob has dimensions of 16x21x26 blocks, and is applied with a radius of 125, a roundness of 92, and a sphericity of 62."
+//fixwater 123,fix the water in a 123 block radius for me
+//thaw 100,How to get rid of the snow within a 100-block radius?
+//snow 299,let it snow in a radius of 299 blocks
+//inset 10,inset the selection by 10 blocks
+//snow 32,What's the command to snow over a radius of 32 blocks?
+//paste -a,paste my clipboard without air
+"//br blob #simplex[11][green_terracotta,yellow_terracotta] 11,15,19 105 82 52","Create a blob with dimensions 11x15x19, radius 105, roundness 82, and sphericity 52 using green and yellow terracotta."
+"//br blob #simplex[7][blue_terracotta,white_terracotta] 7,12,17 88 74 44","Create a blob with dimensions 7x12x17, radius 88, roundness 74, and sphericity 44 using blue and white terracotta."
+"//br blob #simplex[11][green_terracotta,yellow_terracotta] 11,15,19 105 82 52","Create a blob using a simplex noise pattern with a frequency of 11, using green and yellow terracotta. The blob has dimensions of 11x15x19 blocks, and is applied with a radius of 105, a roundness of 82, and a sphericity of 52."
+//re =(random()<1-(x/30)) sculk,"Create a sculk gradient on the x-axis from 0 to 30. The closer to 30, the less sculk there is."
+//snow 15,What is the method to create snow in a 15-block radius?
+//replace water lava,Replace all water blocks in the selection with lava blocks.
+//snow 89,How to initiate snowfall within a radius of 89 blocks?
+//re =(random()<1-(x/80)) sculk,"Create a sculk gradient on the x-axis from 0 to 80. The closer to 80, the less sculk there is."
+//replace cobblestone mossy_cobblestone,Replace all cobblestone blocks in the selection with mossy cobblestone blocks.
+//gmask %25,How do I set the gmask to a 25% chance?
+//snow 63,What's the command to snow over a radius of 63 blocks?
+//deform x/=1/15;y/=1/15;z/=1/15,What steps to follow to reduce my structure size by a factor of 15?
+//paste -b,What's the command to paste my clipboard along with the biomes inside?
+//pos2,How can I mark my second position?
 //setbiome forest,can you give me the command to set a forest biome in my selection?
+"//generate blue_wool N=6; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 6-sided shape on the ground using blue wool. You can change the '6' to any number to get a different sided shape!
+//fixwater 11,What's the command to fix the water within an 11-block radius?
+//ceil,move the player to the ceiling
+//snow 300,let it snow in a radius of 300 blocks
+"//br blob #simplex[8][red_wool,black_wool] 8,12,16 90 75 45","Create a blob with dimensions 8x12x16, radius 90, roundness 75, and sphericity 45 using red and black wool."
+//gmask air,create a global air mask
+//rotate 90 0 0,How can I orient the clipboard with an x-rotation of 90?
+//line obsidian 3,draw a line of obsidian blocks with a thickness of 3 blocks from my position to the opposite corner of my selection
+//snow 52,How to initiate snowfall within a radius of 52 blocks?
+//fixlava 67,How to resolve the lava issue within a 67-block radius?
+//rotate 90,rotate my clipboard 90 degrees clockwise

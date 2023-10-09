@@ -1,28 +1,48 @@
 command,question
-//replace stone wood,Replace all stone blocks in the selection with wood blocks.
-//replace grass_block sand,Replace all grass blocks in the selection with sand blocks.
-"//generate brown_wool N=13; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 13-sided shape on the ground using brown wool. You can change the '13' to any number to get a different sided shape!
-//replace gold_block diamond_block,Replace all gold blocks in the selection with diamond blocks.
-//deform z+=0.7*sin(y^2+x^2),make a curve deformation with a intensity of 0.7
-//schematic save my_schematic,save my selection to a schematic file named my_schematic
-"//br blob #simplex[10][green_wool,yellow_wool] 10,14,18 100 80 50","Create a blob with dimensions 10x14x18, radius 100, roundness 80, and sphericity 50 using green and yellow wool."
-"//br blob #simplex[21][lime_terracotta,gray_terracotta] 21,26,31 135 97 67","Create a blob with dimensions 21x26x31, radius 135, roundness 97, and sphericity 67 using lime and gray terracotta."
-//replace oak_log spruce_log,Replace all oak log blocks in the selection with spruce log blocks.
-//replacenear 20 sand gravel,replace all sand blocks within a 20 block radius with gravel
-//snow 15,let it snow in a radius of 15 blocks
-//deform z+=0.5*sin(y^2+x^2),How make i a curve deformation with a intensity of 0.5
-//deform x/=3/1;y/=3/1;z/=3/1,make my structure 3 times bigger
-//stack 5 west,stack my selection 5 times to the west
+//pos2,How to indicate my second position?
+//deform z+=0.7*sin(y^2+x^2),Perform a curve deformation with an intensity of 0.7
+//brush cylinder gravel 4 5,create a brush that generates a cylinder made of gravel with a radius of 4 blocks and a height of 5 blocks
+//descend,move the player to the next lowest platform below
+//deform x/=1/5;y/=1/5;z/=1/5,What is the method to make my structure five times smaller?
+//naturalize,convert the top layer of blocks in my selection to a natural looking terrain
+//re =(random()<1-(x/90)) sculk,"Create a sculk gradient on the x-axis from 0 to 90. The closer to 90, the less sculk there is."
+//paste,What's the command to paste my clipboard?
+//gmask %75,What is the method to set my gmask to a 75% chance?
+"//generate orange_wool N=10; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 10-sided shape on the ground using orange wool. You can change the '10' to any number to get a different sided shape!
+//count oak_leaves,how many oak leaves are in my selection?
+//gmask %50,set a gmask with 50% chance
+//redo,redo the last undone operation
+//replace stone grass_block,Replace all stone blocks in the selection with grass blocks.
+//pumpkins,place pumpkins randomly in the selected area
+//gmask %25,What's the command to set the gmask to 25% chance?
+"//generate gray_wool N=17; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 17-sided shape on the ground using gray wool. You can change the '17' to any number to get a different sided shape!
+//biomelist -p 2,show me the second page of the biomelist
+//snow 200,How do I make it snow in a radius of 200 blocks?
+//rotate 0 0 90,How to spin my clipboard with y 90?
+//snow 200,How can I create snowfall in a 200-block radius?
+//brush sphere sand 3,create a brush that generates a sphere made of sand with a radius of 3 blocks
+//rotate 0 0 90,How do I rotate my clipboard with y 90?
+"//br blob #simplex[5][blue_wool,white_wool] 5,10,15 80 70 40","Create a blob with dimensions 5x10x15, radius 80, roundness 70, and sphericity 40 using blue and white wool."
+//1,What's the command to select the first position?
+//gmask %75,What's the command to set my gmask to 75% chance?
+"//br blob #simplex[12][purple_wool,pink_wool] 12,16,20 110 85 55","Create a blob with dimensions 12x16x20, radius 110, roundness 85, and sphericity 55 using purple and pink wool."
+"//br blob #simplex[25][magenta_terracotta,light_blue_terracotta] 25,30,35 140 100 70","Create a blob with dimensions 25x30x35, radius 140, roundness 100, and sphericity 70 using magenta and light blue terracotta."
+"//br blob #simplex[5][blue_wool,white_wool] 5,10,15 80 70 40","Create a blob using a simplex noise pattern with a frequency of 5, using blue and white wool. The blob has dimensions of 5x10x15 blocks, and is applied with a radius of 80, a roundness of 70, and a sphericity of 40."
+//snow 55,What is the method to create snow in a 55-block radius?
+//snow 89,let it snow in a radius of 89 blocks
 //deform z+=0.7*sin(y^2+x^2),Implement a curve deformation with an intensity of 0.7
+"//set 5%stone,95%air",set blocks in the selected area to 5% stone and 95% air
+//paste,What is the method to paste my clipboard?
+//replace lava bedrock,Replace all lava blocks in the selection with bedrock blocks.
+"//generate purple_wool N=9; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2",Create a cool 9-sided shape on the ground using purple wool. You can change the '9' to any number to get a different sided shape!
+//snow 32,How do I make it snow in a radius of 32 blocks?
+//deform z+=60*sin(y^2+x^2),a curve deformation with a intensity of 60
+//deform z+=0.5*sin(y^2+x^2),How make i a curve deformation with a intensity of 0.5
+//replace gold_block diamond_block,Replace all gold blocks in the selection with diamond blocks.
+//rotate 90 0 0,What is the method to rotate the clipboard by x 90?
+//gmask %25,What is the method to set the gmask to a 25% chance?
+//deform x/=1/7;y/=1/7;z/=1/7,What is the method to make my structure seven times smaller?
+//re =(random()<1-(x/150)) sculk,"Create a sculk gradient on the x-axis from 0 to 150. The closer to 150, the less sculk there is."
 //center gold_block,set the center block of my selection to a gold block
-//deform x/=1/15;y/=1/15;z/=1/15,make my structure 15 times smaller
-"//generate red_wool N=5; a=atan2(x,z); r=(cos(pi/N))/cos(a-((2*pi)/N)*floor((N*a+pi)/(2*pi))); (x^2+z^2)<r^2","Generate a 5-sided 2D polygon using red wool on the ground. The formula uses trigonometric functions to calculate the vertices of the polygon based on the number of sides (N), and the coordinates (x, z) to define the shape."
-//schematic load my_schematic,load the schematic file named my_schematic into my selection
-//re =(random()<1-(x/20)) sculk,"Create a sculk gradient on the x-axis from 0 to 20. The closer to 20, the less sculk there is."
-"//br blob #simplex[15][orange_wool,brown_wool] 15,20,25 120 90 60","Create a blob using a simplex noise pattern with a frequency of 15, using orange and brown wool. The blob has dimensions of 15x20x25 blocks, and is applied with a radius of 120, a roundness of 90, and a sphericity of 60."
-//curve quartz_block 5,create a curve made of quartz blocks with a radius of 5 blocks from my position to the opposite corner of my selection
-//replace clay terracotta,Replace all clay blocks in the selection with terracotta blocks.
-"//br blob #simplex[8][red_wool,black_wool] 8,12,16 90 75 45","Create a blob with dimensions 8x12x16, radius 90, roundness 75, and sphericity 45 using red and black wool."
-//delchunks,delete the chunks in the selected area
-//re =(random()<1-(x/100)) sculk,"Create a sculk gradient on the x-axis from 0 to 100. The closer to 100, the less sculk there is."
-//hcyl bricks 8 10,create a hollow cylinder made of bricks with a radius of 8 blocks and a height of 10 blocks
+//1,select the first position
+//gmask %75,How can I configure my gmask to a 75% probability?
