@@ -46,22 +46,99 @@ command,question
 //deform x/=1/5;y/=1/5;z/=1/5,make my structure 5 times smaller
 //deform x/=1/7;y/=1/7;z/=1/7,make my structure 7 times smaller
 //deform x/=1/15;y/=1/15;z/=1/15,make my structure 15 times smaller
+//deform x/=1/5;y/=1/5;z/=1/5,How can I reduce my structure's size by a factor of 5?
+//deform x/=1/7;y/=1/7;z/=1/7,How can I make my structure 7 times smaller?
+//deform x/=1/15;y/=1/15;z/=1/15,How do I shrink my structure to 1/15 of its original size?
+//deform x/=1/5;y/=1/5;z/=1/5,What's the command to scale down my structure by a factor of 5?
+//deform x/=1/7;y/=1/7;z/=1/7,What's the command to scale down my structure by a factor of 7?
+//deform x/=1/15;y/=1/15;z/=1/15,What's the command to scale down my structure by a factor of 15?
+//deform x/=1/5;y/=1/5;z/=1/5,How to decrease the size of my structure fivefold?
+//deform x/=1/7;y/=1/7;z/=1/7,How to decrease the size of my structure sevenfold?
+//deform x/=1/5;y/=1/5;z/=1/5,What is the method to make my structure five times smaller?
+//deform x/=1/7;y/=1/7;z/=1/7,What is the method to make my structure seven times smaller?
+//deform x/=1/15;y/=1/15;z/=1/15,What is the method to make my structure fifteen times smaller?
+//deform x/=1/5;y/=1/5;z/=1/5,How can I scale down my structure by 5 times?
+//deform x/=1/7;y/=1/7;z/=1/7,How can I scale down my structure by 7 times?
+//deform x/=1/15;y/=1/15;z/=1/15,How can I scale down my structure by 15 times?
+//deform x/=1/5;y/=1/5;z/=1/5,What steps to follow to reduce my structure size by a factor of 5?
+//deform x/=1/7;y/=1/7;z/=1/7,What steps to follow to reduce my structure size by a factor of 7?
+//deform x/=1/15;y/=1/15;z/=1/15,What steps to follow to reduce my structure size by a factor of 15?
 //deform x/=4/1;y/=4/1;z/=4/1,make my structure 4 times bigger
 //deform x/=8/1;y/=8/1;z/=8/1,make my structure 8 times bigger
 //deform x/=16/1;y/=16/1;z/=16/1,make my structure 16 times bigger
 //deform x/=16/1;y/=8/1;z/=4/1,make my structure 16 times bigger in x and 8 times bigger in y and 4 times bigger in z
 //gmask %25,set the gmask to 25% chance
 //gmask %75,set my gmask to 70% chance
+//gmask %25,How do I set the gmask to a 25% chance?
+//gmask %75,How do I set my gmask to a 75% chance?
+//gmask %25,What's the command to set the gmask to 25% chance?
+//gmask %75,What's the command to set my gmask to 75% chance?
+//gmask %25,How can I configure the gmask to a 25% probability?
+//gmask %75,How can I configure my gmask to a 75% probability?
+//gmask %25,What is the method to set the gmask to a 25% chance?
+//gmask %75,What is the method to set my gmask to a 75% chance?
+//gmask %25,How to adjust the gmask to a 25% chance?
+//gmask %75,How to adjust my gmask to a 75% chance?
 //pos1,select my first position
 //pos2,select my second position
 //1,select the first position
 //2,select the secound position
+//pos1,How do I select my first position?
+//pos2,How do I select my second position?
+//1,How do I select the first position?
+//2,How do I select the second position?
+//pos1,What's the command to select my first position?
+//pos2,What's the command to select my second position?
+//1,What's the command to select the first position?
+//2,What's the command to select the second position?
+//pos1,How can I mark my first position?
+//pos2,How can I mark my second position?
+//1,How can I mark the first position?
+//2,How can I mark the second position?
+//pos1,What is the method to select my first position?
+//pos2,What is the method to select my second position?
+//1,What is the method to select the first position?
+//2,What is the method to select the second position?
+//pos1,How to indicate my first position?
+//pos2,How to indicate my second position?
+//1,How to indicate the first position?
+//2,How to indicate the second position?
 //copy,copy my selection
 //copy -b,copy my selection and the biomes inside of it
+//copy,How do I copy my selection?
+//copy -b,How do I copy my selection and the biomes inside of it?
+//copy,What's the command to copy my selection?
+//copy -b,What's the command to copy my selection along with the biomes inside?
+//copy,How can I duplicate my selection?
+//copy -b,How can I duplicate my selection and the biomes within it?
+//copy,What is the method to copy my selection?
+//copy -b,What is the method to copy my selection and include the biomes?
+//copy,How to replicate my selection?
+//copy -b,How to replicate my selection and the biomes inside?
 //paste,paste my clipboard
 //paste -a,paste my clipboard without air
 //paste -b,paste my clipboard with the biomes inside of it
 //paste,paste what I have copied
+//paste,How do I paste my clipboard?
+//paste -a,How do I paste my clipboard without air?
+//paste -b,How do I paste my clipboard with the biomes inside of it?
+//paste,How do I paste what I have copied?
+//paste,What's the command to paste my clipboard?
+//paste -a,What's the command to paste my clipboard excluding the air?
+//paste -b,What's the command to paste my clipboard along with the biomes inside?
+//paste,What's the command to paste what I have copied?
+//paste,How can I transfer the contents from my clipboard?
+//paste -a,How can I transfer the contents from my clipboard without air?
+//paste -b,How can I transfer the contents from my clipboard with the biomes inside?
+//paste,How can I transfer what I have copied?
+//paste,What is the method to paste my clipboard?
+//paste -a,What is the method to paste my clipboard sans the air?
+//paste -b,What is the method to paste my clipboard including the biomes?
+//paste,What is the method to paste the copied contents?
+//paste,How to insert the contents of my clipboard?
+//paste -a,How to insert the contents of my clipboard without air?
+//paste -b,How to insert the contents of my clipboard with the biomes inside?
+//paste,How to insert what I have copied?
 //rotate 0 0 90,rotate my clipboard with y 90
 //rotate 0 0 45,rotate the clipboard with y 45
 //rotate 0 90 0,can you rotate the clipboard with z 90?
@@ -70,6 +147,46 @@ command,question
 //rotate 45 0 0,rotate my clipboard by x 45
 //rotate 90 90 90,"rotate my clipboard by x 90, z 90 and y 90 "
 //rotate 90 45 0,"rotate my clipboard by x 90, z 45 and y 0"
+//rotate 0 0 90,How do I rotate my clipboard with y 90?
+//rotate 0 0 45,How do I rotate the clipboard with y 45?
+//rotate 0 90 0,How do I rotate the clipboard with z 90?
+//rotate 0 45 0,How do I rotate my clipboard with z 45 degrees?
+//rotate 90 0 0,How do I rotate the clipboard by x 90?
+//rotate 45 0 0,How do I rotate my clipboard by x 45?
+//rotate 90 90 90,"How do I rotate my clipboard by x 90, z 90 and y 90?"
+//rotate 90 45 0,"How do I rotate my clipboard by x 90, z 45 and y 0?"
+//rotate 0 0 90,What's the command to rotate my clipboard with y 90?
+//rotate 0 0 45,What's the command to rotate the clipboard with y 45?
+//rotate 0 90 0,What's the command to rotate the clipboard with z 90?
+//rotate 0 45 0,What's the command to rotate my clipboard with z 45 degrees?
+//rotate 90 0 0,What's the command to rotate the clipboard by x 90?
+//rotate 45 0 0,What's the command to rotate my clipboard by x 45?
+//rotate 90 90 90,"What's the command to rotate my clipboard by x 90, z 90 and y 90?"
+//rotate 90 45 0,"What's the command to rotate my clipboard by x 90, z 45 and y 0?"
+//rotate 0 0 90,How can I orient my clipboard with a y-rotation of 90?
+//rotate 0 0 45,How can I orient the clipboard with a y-rotation of 45?
+//rotate 0 90 0,How can I orient the clipboard with a z-rotation of 90?
+//rotate 0 45 0,How can I orient my clipboard with a z-rotation of 45 degrees?
+//rotate 90 0 0,How can I orient the clipboard with an x-rotation of 90?
+//rotate 45 0 0,How can I orient my clipboard with an x-rotation of 45?
+//rotate 90 90 90,"How can I orient my clipboard with rotations of x 90, z 90 and y 90?"
+//rotate 90 45 0,"How can I orient my clipboard with rotations of x 90, z 45 and y 0?"
+//rotate 0 0 90,What is the method to rotate my clipboard with y 90?
+//rotate 0 0 45,What is the method to rotate the clipboard with y 45?
+//rotate 0 90 0,What is the method to rotate the clipboard with z 90?
+//rotate 0 45 0,What is the method to rotate my clipboard with z 45 degrees?
+//rotate 90 0 0,What is the method to rotate the clipboard by x 90?
+//rotate 45 0 0,What is the method to rotate my clipboard by x 45?
+//rotate 90 90 90,"What is the method to rotate my clipboard by x 90, z 90 and y 90?"
+//rotate 90 45 0,"What is the method to rotate my clipboard by x 90, z 45 and y 0?"
+//rotate 0 0 90,How to spin my clipboard with y 90?
+//rotate 0 0 45,How to spin the clipboard with y 45?
+//rotate 0 90 0,How to spin the clipboard with z 90?
+//rotate 0 45 0,How to spin my clipboard with z 45 degrees?
+//rotate 90 0 0,How to spin the clipboard by x 90?
+//rotate 45 0 0,How to spin my clipboard by x 45?
+//rotate 90 90 90,"How to spin my clipboard by x 90, z 90 and y 90?"
+//rotate 90 45 0,"How to spin my clipboard by x 90, z 45 and y 0?"
 //thaw 30,melt the snow next ot me in a radius of 30 blocks
 //thaw 100,can you make the snow go away in a radius of 100 blocks?
 //fixlava 67,can you fix the lava in a radius of 67 blocks?
